@@ -29,3 +29,20 @@ print("Hello, World!")
 ```
 
 When you run this script, the Python interpreter reads and executes the command line by line. In this case, it prints the text “Hello, World!” to the console. This illustrates the simplicity and ease of use of scripting languages for automating tasks and manipulating data.
+# Class 2, Tutorial 55.
+
+Variables in JavaScript → Variables in JavaScript are like containers where we can store any data.
+
+**Q.** What is ECMAScript ?
+
+Answer → ECMAScript is a standard that guides how scripting languages like JavaScript should be written and work.
+
+ECMAScript is like a rulebook for how languages like JavaScript should work. It is like a grammar book for JavaScript. It tells what words (syntax) and sentence structures (semantics) are allowed in JavaScript.
+
+When we say browser supports ECMAScript, it means the browser understands the rules of this book and can correctly understand and run JavaScript code written according to these rules.
+
+Variables in JavaScript → Variables are like containers in JavaScript that stores a value. That value can be either a number, or string, or floating point number, or a JavaScript object.
+
+Var vs Let in JavaScript.
+
+1. Var is globally scoped while let and const are blocked scope.
