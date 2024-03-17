@@ -46,3 +46,10 @@ Variables in JavaScript → Variables are like containers in JavaScript that sto
 Var vs Let in JavaScript.
 
 1. Var is globally scoped while let and const are blocked scope.
+
+# REPL
+
+Read Evaluate Print Loop, If we want to perform any basic operation within PowerShell then we can just type node within PowerShell and then perform task.
+
+Code → “3” == 3 // output true; // This compares the value.
+code -> "3" === 3 // output: False; This compares the type.
