@@ -53,3 +53,9 @@ Read Evaluate Print Loop, If we want to perform any basic operation within Power
 
 Code → “3” == 3 // output true; // This compares the value.
 code -> "3" === 3 // output: False; This compares the type.
+
+console.log("Hello I am conditional tutorial.")
+let age = 45;
+if(age > 45) {
+    console.log("Yes you can drive");
+}
