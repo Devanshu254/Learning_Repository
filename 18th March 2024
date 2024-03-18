@@ -28,3 +28,44 @@ let friend = "Rohan"
 console.log("His name is " + real_name + " and his friends name is " + friend)
 // Solution using template literal.
 console.log(`His name is ${real_name} and his friend's name is ${friend} ` ) // Template Literal.
+
+b = `Devansh"u` // Using string literal we can insert something like this within any datatype.
+console.log(b)
+
+//If we do not want to use string literal, we can then use escape sequence characters.
+b = "Devans\"hu"
+console.log(b)
+
+b = "Devansh\nu" // Escape sequence to add a new line.
+console.log(b)
+
+// There are some string properties and methods.
+let c = "Shivam"
+console.log(c.toUpperCase()) // The string will get converted in uppercase.
+console.log(c.toLowerCase())
+console.log(c.length)
+console.log(c.slice(1,4)) // Slice operation on string but here, the last index will be excluded.
+console.log(c.slice(2)) // From 2 to all characters.
+console.log(c.replace("Sh", "77")) // 1st occurence will get replaced.
+
+// String concatenation.
+let d = "Devanshu"
+let e = "Jha"
+console.log(d+" "+e) // String concatenation.
+console.log(d.concat(e)) // String Concatenation.
+console.log(d.concat(e, "Chips")) // String Concatenation.
+
+let name = "Devanshu"
+console.log(name)
+name = "Jha"
+console.log(name) // We can reassign the string to a new string but we can not mutate this.
+
+//Strings immutability concept.
+let str = "Hello";
+str[0] = "J";
+console.log(str); // Outputs: "Hello"
+
+let str = "Hello"; // Re assignation is possible.
+str = "Jello";
+console.log(str); // Outputs: "Jello"
+
