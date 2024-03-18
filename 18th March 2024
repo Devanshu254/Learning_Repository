@@ -1,0 +1,10 @@
+JavaScript tutorial 59, task.
+-> /* Create a faulty calculator Using JavaScript.
+ 1. It takes 2 numbers as input from the User.
+ 2. It performs wrong operations as follows.
+ It performs wrong operations 10 percent of the times.
+ + --> -
+ * --> +
+ - --> /
+ / --> **
+*/
