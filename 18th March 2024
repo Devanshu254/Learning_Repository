@@ -144,3 +144,15 @@ console.log(arr, typeof arr)
 
 // We can convert array into string usint toString function.
 console.log(arr.toString())
+
+console.log(arr.join(" and ")) // Whereever we had comma, "and" will come here.
+
+console.log(arr.pop())
+arr.push(100)
+console.log(arr)
+
+console.log(arr.shift()) // It takes the first array element and then return it.
+console.log(arr)
+
+console.log(arr.unshift("Jack"))
+console.log(arr)
