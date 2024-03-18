@@ -72,3 +72,36 @@ console.log(str); // Outputs: "Jello"
 console.log(a.startsWith("Har")) // It will tell whether a string will starts with har.
 console.log(a.endsWith("ry")) 
 console.log(a.indexOf("Har"))
+
+// Here is the solution of our question faulty calculator which we have defined above.
+/* Create a faulty calculator Using JavaScript.
+ 1. It takes 2 numbers as input from the User.
+ 2. It performs wrong operations as follows.
+ It performs wrong operations 10 percent of the times.
+ + --> -
+ * --> +
+ - --> /
+ / --> **
+*/
+
+// First let us create a random variable.
+
+let random = Math.random()
+let a = prompt("Enter first number: ")
+let b = prompt("Enter second number: ")
+let c = prompt("Enter operation: ")
+
+let obj = {
+    "+" : "-",
+    "*" : "+",
+    "-" : "/",
+    "/" : "**"
+}
+if(random > 0.1) {
+    // Perform Correct Calculation.
+    alert(`The result is ${eval(`${a} ${c} ${b}`)}`) // Eval is used for evaluation.
+}else {
+    // Perform Wrong Calculation.
+    c = obj[c]
+    alert(`The result is ${eval(`${a} ${c} ${b}`)}`)
+}
