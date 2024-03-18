@@ -69,3 +69,6 @@ let str = "Hello"; // Re assignation is possible.
 str = "Jello";
 console.log(str); // Outputs: "Jello"
 
+console.log(a.startsWith("Har")) // It will tell whether a string will starts with har.
+console.log(a.endsWith("ry")) 
+console.log(a.indexOf("Har"))
