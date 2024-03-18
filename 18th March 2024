@@ -129,3 +129,18 @@ Hub
 
 We need to take one name from adjective, one from shop name and one from another words. We do not need to use arrays.
 */
+
+Tutorial 63 Arrays in JavaScript.
+
+// Array is collection of multiple datatypes within javascript. Here we can add numbers, String or objects also. 
+
+let arr = [1,2,3,4,5]
+console.log(arr)
+console.log(arr.length)
+
+// Arrays are mutable so we can change them. But strings are immutable.
+arr[0] = 5666
+console.log(arr, typeof arr)
+
+// We can convert array into string usint toString function.
+console.log(arr.toString())
