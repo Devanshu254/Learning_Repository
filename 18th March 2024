@@ -105,3 +105,27 @@ if(random > 0.1) {
     c = obj[c]
     alert(`The result is ${eval(`${a} ${c} ${b}`)}`)
 }
+
+Tutorial - 62.
+/*
+Excercise 10.
+Business Name Generator.
+Create a business name generator by combining list of adjectives and shop name and another word.
+
+List of adjactives - Here we can not use arrays. 
+Crazy
+Amazing
+Fire 
+
+Shop name:
+Engine
+Foods
+Garments
+
+Another word:
+Bros
+Limited
+Hub
+
+We need to take one name from adjective, one from shop name and one from another words. We do not need to use arrays.
+*/
