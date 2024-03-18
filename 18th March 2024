@@ -8,3 +8,23 @@ JavaScript tutorial 59, task.
  - --> /
  / --> **
 */
+
+Tutorial 60, Strings.
+
+console.log("This is strings tutorial")
+let a = "Harry";
+// String is immutable.
+console.log(a)
+console.log(a[0]) // Accessing the particular character.
+// console.log(a[5]) // Undefined.
+
+console.log(a.length) // It will tell the length of array.
+
+
+// Template literal.
+// Problam.
+let real_name = "Harry"
+let friend = "Rohan"
+console.log("His name is " + real_name + " and his friends name is " + friend)
+// Solution using template literal.
+console.log(`His name is ${real_name} and his friend's name is ${friend} ` ) // Template Literal.
