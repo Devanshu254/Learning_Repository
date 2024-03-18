@@ -156,3 +156,25 @@ console.log(arr)
 
 console.log(arr.unshift("Jack"))
 console.log(arr)
+
+// Shift will pop out first element.
+// Pop will pop out last element.
+// Unshift will add element at front.
+// Push will add element at the end.
+
+delete(arr[3]) // the memory allocation is there but the value will be absent.
+console.log(arr) 
+
+// Array concatenation.
+let a1 = [1,2,3]
+let a2 = [4,5,6]
+let a3 = [9,8,7]
+let result = a1.concat(a2, a3)
+console.log(result)
+
+// Sort an array.
+let array = [1,1,2,4,5,6,7,87,9];
+array.sort(function(a, b) {
+  return a - b;
+});
+console.log(array); // Outputs: [1, 1, 2, 4, 5, 6, 7, 9, 87]
