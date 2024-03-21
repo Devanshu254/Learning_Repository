@@ -4,8 +4,6 @@ Excercise: Calculate the factorial of a number using JavaScript.
 Tutorial -> 66.
 DOM and BOM in JavaScript.
 
-Sure, I'd be happy to explain!
-
 **DOM (Document Object Model)**: The DOM is a programming interface for web documents. It represents the structure of a web page and allows programming languages like JavaScript to manipulate the content, structure, and styles of a webpage. The DOM represents a document as a tree of objects; each object represents part of the document, such as an element, an attribute, or a piece of text.
 
 Here's a simple example of using the DOM in JavaScript:
@@ -34,4 +32,4 @@ window.location.href = "https://www.example.com";
 
 In this code, `window.open()` uses the BOM to open a new browser window. `window.location.href` changes the URL of the current window.
 
-I hope this helps! Let me know if you have any other questions. 😊
+
