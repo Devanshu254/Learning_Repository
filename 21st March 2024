@@ -33,6 +33,8 @@ window.location.href = "https://www.example.com";
 In this code, `window.open()` uses the BOM to open a new browser window. `window.location.href` changes the URL of the current window.
 
 Tutorial -> 67.
+
+index.html file -> 
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -63,3 +65,11 @@ Tutorial -> 67.
   </body>
 </html>
 
+script.js file -> 
+
+console.log("Hello world")
+
+document.body.firstElementChild // First child that is an element.
+document.body.firstElementChild.childNodes // All nodes which contains text, comments, code.
+document.body.firstElementChild.children // Only HTML elements.
+document.body.firstElementChild.children[3].nextElementSibling // It will give the next sibilng.
