@@ -1,2 +1,37 @@
 Tutorial -> 65.
 Excercise: Calculate the factorial of a number using JavaScript.
+
+Tutorial -> 66.
+DOM and BOM in JavaScript.
+
+Sure, I'd be happy to explain!
+
+**DOM (Document Object Model)**: The DOM is a programming interface for web documents. It represents the structure of a web page and allows programming languages like JavaScript to manipulate the content, structure, and styles of a webpage. The DOM represents a document as a tree of objects; each object represents part of the document, such as an element, an attribute, or a piece of text.
+
+Here's a simple example of using the DOM in JavaScript:
+
+```javascript
+// Change the content of an element
+document.getElementById("myElement").innerHTML = "New content";
+
+// Change the style of an element
+document.getElementById("myElement").style.color = "blue";
+```
+
+In this code, `document.getElementById("myElement")` uses the DOM to select an element with the id "myElement". `.innerHTML` and `.style.color` then change the content and color of the selected element, respectively.
+
+**BOM (Browser Object Model)**: The BOM is a browser-specific convention referring to all the objects exposed by the web browser. Unlike the DOM, which deals with the content on a webpage, the BOM deals with the browser components outside a webpage, such as the address bar, history, screen, or the browser's viewport. The BOM provides a way for JavaScript to interact with the web browser itself.
+
+Here's a simple example of using the BOM in JavaScript:
+
+```javascript
+// Open a new browser window
+let newWindow = window.open();
+
+// Change the location of the current window
+window.location.href = "https://www.example.com";
+```
+
+In this code, `window.open()` uses the BOM to open a new browser window. `window.location.href` changes the URL of the current window.
+
+I hope this helps! Let me know if you have any other questions. 😊
