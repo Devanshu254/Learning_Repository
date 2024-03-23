@@ -85,3 +85,6 @@ function facFor(number) {
 }
 
 facFor(a)
+
+Tutorial - 70.
+Exercise - <!-- Given 5 boxes, assign a random color and a random background to each using box DOM concepts. -->
