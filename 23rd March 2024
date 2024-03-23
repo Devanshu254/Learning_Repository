@@ -88,3 +88,35 @@ facFor(a)
 
 Tutorial - 70.
 Exercise - <!-- Given 5 boxes, assign a random color and a random background to each using box DOM concepts. -->
+
+Tutorial - 71.
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div
+        class="box"
+        style="display: flex"
+        data-createdby="devanshu"
+        data-conceptby="ABC"
+      >
+        Hey I am a Box.
+      </div>
+      <script>
+        // let div = document.createElement("div");
+        // div.innerHTML = "I have been created <b> by Devanshu </b>";
+        // div.setAttribute("class", "created");
+        // document.querySelector(".container").before(div);
+
+        let cont = document.querySelector(".container");
+        cont.insertAdjacentHTML("afterbegin", "<b>Hello this is a string.</b>");
+      </script>
+    </div>
+  </body>
+</html>
+
