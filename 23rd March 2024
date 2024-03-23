@@ -71,3 +71,17 @@ index.html ->
     <script src="script.js"></script>
   </body>
 </html>
+
+Script.js -> 
+
+let a = 6;
+
+function facFor(number) {
+    let fac = 1
+    for(let i=1; i<=number ;i++) {
+        fac = fac * i
+    }
+    return fac
+}
+
+facFor(a)
