@@ -146,3 +146,90 @@ So, When I will click on child. Then automatically this event will get bubble. M
 }, 1000) , setTimeout() function, runs single time after a single execution.-->
 
 <!-- To stop the execution of setTimeout() we use clearTimeout(). -->
+
+Video 75th -> 
+3 Files are there.
+1. Index.html
+2. script.js
+3. promises.js
+
+1. Index.html
+<!-- Call back functions are used when we want to call a function. Once a function executes. Promise is also a important concept under Async. -->
+<!-- Call BAck function is a function which goes under a function and then runs. We can pass callback function to a function. -->
+
+<!-- Asynchronous nature of JavaScript: Some functions which are asynchronour in nature, they are delayed to be executed. For example:
+
+    1. console.log("Harry is Hacker")
+    2. console.log("Devanshu is also a Heker")
+    3.  setTimeout(() => {
+            console.log("I am inside timout.")
+        }, 3000)
+    4. console.log("The end")
+
+    Above, we have seen a code, here: We might think that all of these will get executed in a sequential order. But that is not always true because, We have, a function setTimeout() which will run after 3 seconds. But script will not stop for 3 seconds. It will excute in order 1->2->4->3.
+    
+    This is an example of asynchronous behaviour of JavaScript.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="promise.js"></script>
+</body>
+</html>
+
+2. // We can pass function as a variable to another function, that is what is the concept of callback.
+
+const fn = () => {
+    console.log("Nothing")
+}
+const callback = (arg, fn) => {
+    console.log(arg)
+    fn()
+}
+const loadScript = (src, callback) => {
+    let sc = document.createElement("script");
+    sc.src = src;
+    sc.onload = callback("Harry");
+    document.head.append(sc)
+}
+
+loadScript("https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/prism.min.js", callback )
+
+// After Some time when then code will become very big, managing it will become very difficult, so for that reason we use promises.
+
+// Promises are the solution to call backs. Means here we are performing call backs, means first do this, then do that. But what if our script will wait for the code, for line by line execution. This is now a good thing.
+
+3. promise.js.
+
+// Promises are the solution to callbacks.
+// Promise means promise of code execution.
+
+let prom1 = new Promise((resolve, reject) => {
+    let a = Math.random();
+    if(a < 0.5) {
+        reject("No random number was not supporting you.")
+    }
+    else {
+        setTimeout(()=>{
+            console.log("Yes, I am done.")
+            resolve("Devanshu")
+        }, 3000)
+    }
+})
+
+prom1.then(()=>{
+    console.log(a) // When prom1 get resolved then the value of a will get printed.
+}).catch((err)=>{
+    console.log(err) // We catch the error and the print it accordingly.
+})
+// new Promise which is a promise constructor. It receives two things, when to be resolved and when to be rejected.
+
+// promise is also lot of types.
+// 1. promise.all.
+// 2. promise.allSettled(promises): Whatever the result is, whether it is resovle, reject we do not care. But both the promises are working then what we can use is -> allsettle.
