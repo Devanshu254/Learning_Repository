@@ -8,6 +8,7 @@ index.html
 script.js
 eventsbubbling.html
 
+index.html -> 
 <!-- There are lot of events in JavaScript like We can click on an element, or we can double click on an element, we can take mouse within an element or out of an element. -->
 <!DOCTYPE html>
 <html lang="en">
@@ -24,3 +25,26 @@ eventsbubbling.html
     <script src="script.js"></script>
   </body>
 </html>
+
+script.js ->
+let button = document.getElementById("btn")
+// button.addEventListener("click", ()=>{
+//     alert("I was clicked! yayy.")
+//     document.querySelector(".box").innerHTML = "Yeyy, You were clicked."
+// })
+
+button.addEventListener("dblclick", ()=>{
+    document.querySelector(".box").innerHTML = "Yes, you will get changed."
+})
+
+button.addEventListener("contextmenu", ()=>{
+    alert("Right click please.")
+})
+
+button.addEventListener("keyup", (e)=> { // keyboard keys take events object as parameter.
+    alert("Yes, you have entered keyup comand. Good.")
+}) // After clicking on the place where we are applying the event, actually we will get an alert.
+
+button.addEventListener("keydown", (e)=>{
+    console.log(e.key)
+})
