@@ -48,3 +48,99 @@ button.addEventListener("keyup", (e)=> { // keyboard keys take events object as 
 button.addEventListener("keydown", (e)=>{
     console.log(e.key)
 })
+
+eventsbubbling.html -> 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Bubbling.</title>
+    <style>
+      .child {
+        background-color: aliceblue;
+        border: 2px solid black;
+        padding: 14px;
+        margin: 14px;
+        cursor: pointer;
+      }
+      .childContainer {
+        background-color: beige;
+        margin: 14px;
+        padding: 14px;
+      }
+      .container {
+        background-color: yellow;
+        margin: 14px;
+        padding: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <section class="childContainer">
+        <div class="child">I am a child.</div>
+      </section>
+    </div>
+    <script>
+      // What we are trying to do is, whenever someone clicks on child, then it gives an alert that child is clicked or something like that.
+
+      //   document.querySelector(".child").addEventListener("click", () => {
+      //     alert("Don't hack us by doing right click okay.");
+      //   });
+      document.querySelector(".child").addEventListener("click", (e) => {
+        e.stopPropagation();
+        alert("Don't hack us by doing right click okay.");
+      });
+      document
+        .querySelector(".childContainer")
+        .addEventListener("click", () => {
+          alert("childContainer was clicked.");
+        });
+      document.querySelector(".container").addEventListener("click", (e) => {
+        e.stopPropagation();
+        alert("Container was clicked.");
+      });
+      function getRandomColor() {
+        let val1 = Math.ceil(0 + Math.random() * 255);
+        let val2 = Math.ceil(0 + Math.random() * 255);
+        let val3 = Math.ceil(0 + Math.random() * 255);
+        return `rgb(${val1}, ${val2}, ${val3})`;
+      }
+      let a = setInterval(() => {
+        document.querySelector(".childContainer").style.background =
+          getRandomColor();
+      }, 3000);
+      console.log(a);
+      // Here in console, after output: 1 will be the output. But If we want to stop this. We can use clearInterval() -> This function in order to stop that set interval. The parameter of clearInterval() -> This will take the output of let a (variable) and then it will close the set interval.
+
+      //   let b = setTimeout(() => {
+      //     document.querySelector(".childContainer").style.background =
+      //       getRandomColor();
+      //   }, 1000);
+      // The theory of setTImeout function is writtern below.
+      // To cancel setTimeout() we use -> clearTimeout();
+    </script>
+  </body>
+</html>
+
+<!-- Within Container, we have child container, within child container we have child. MEans.
+Container -> Child_Container -> Child.
+So, When I will click on child. Then automatically this event will get bubble. MEans then child property will get bubbled to childContainer and Container also. So, This concept is known as Event Bubbling. -->
+
+<!-- What If we do not want event bubbling. Here, We can stop Propagation. For that we can pass e (event) as parameter and the bubbling will get stop. You can see in above code. -->
+
+<!-- Set Interval: If I want that something must happens repetetively, then we can use set interval. setInterval is a function, which takes a function, a function that takes a function and time (in millisecond).
+
+    setInterval(()=>{
+        document.querySelector(".childContainer").style.background = "red";
+    }, 3000) -> After 3 seconds we will get to know that what is happening.
+-->
+
+<!-- clearInterval() -> This function will take the output of above set interval function as parameter and then it will stop the execution of setInterval() function. -->
+
+<!-- setTimeout(() => {
+    document.querySelector(".childContainer").style.background = getRandomColor();
+}, 1000) , setTimeout() function, runs single time after a single execution.-->
+
+<!-- To stop the execution of setTimeout() we use clearTimeout(). -->
