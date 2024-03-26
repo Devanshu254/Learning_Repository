@@ -7,3 +7,20 @@ Tutorial - 74.
 index.html
 script.js
 eventsbubbling.html
+
+<!-- There are lot of events in JavaScript like We can click on an element, or we can double click on an element, we can take mouse within an element or out of an element. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">Hey I am a box.</div>
+    </div>
+    <button id="btn">Change Content</button>
+    <script src="script.js"></script>
+  </body>
+</html>
