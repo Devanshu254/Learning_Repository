@@ -1,0 +1,34 @@
+1st Thing. 2-3 Coding Questions.
+
+Move All the Zeros to the end.
+Brute force approach.
+#include <iostream>
+using namespace std;
+void moveZeros(int arr[], int n) {
+  int temp[n];
+  int j = 0;
+  for(int i=0;i<n;i++) {
+    if(arr[i] != 0) {
+      temp[j] = arr[i];
+      j++;
+    }
+  }
+  int nz = j;
+  for(int i=0;i<nz;i++) {
+    arr[i] = temp[i];
+  }
+  for(int i=nz;i<n;i++) {
+    arr[i] = 0;
+  }
+  for(int i=0;i<n;i++) {
+    cout<<arr[i]<<" ";
+  }
+  cout<<endl;
+}
+int main() 
+{
+    int arr[] = {1, 0, 2, 3, 2, 0, 0, 4, 5, 1};
+    int n = sizeof(arr)/sizeof(arr[0]);
+    moveZeros(arr, n);
+    return 0;
+}
