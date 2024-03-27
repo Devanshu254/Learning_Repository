@@ -1,1 +1,87 @@
+1st Thing. 2-3 Coding Questions.
+
+Move All the Zeros to the end.
+Brute force approach.
+#include <iostream>
+using namespace std;
+void moveZeros(int arr[], int n) {
+  int temp[n];
+  int j = 0;
+  for(int i=0;i<n;i++) {
+    if(arr[i] != 0) {
+      temp[j] = arr[i];
+      j++;
+    }
+  }
+  int nz = j;
+  for(int i=0;i<nz;i++) {
+    arr[i] = temp[i];
+  }
+  for(int i=nz;i<n;i++) {
+    arr[i] = 0;
+  }
+  for(int i=0;i<n;i++) {
+    cout<<arr[i]<<" ";
+  }
+  cout<<endl;
+}
+int main() 
+{
+    int arr[] = {1, 0, 2, 3, 2, 0, 0, 4, 5, 1};
+    int n = sizeof(arr)/sizeof(arr[0]);
+    moveZeros(arr, n);
+    return 0;
+}
+
+Optimal approach.
+#include <bits/stdc++.h>
+using namespace std;
+vector<int> moveZeors(int n, vector<int> a) {
+  int j = -1;
+  for(int i=0;i<n;i++) {
+    if(a[i] == 0) {
+      j = i;
+      break;
+    }
+  }
+  if(j == -1) return a;
+  for(int i=j+1;i<n;i++) {
+    if(a[i] != 0) {
+      swap(a[i], a[j]);
+      j++;
+    }
+  }
+  return a;
+}
+int main() 
+{
+    vector<int> arr = {1,0,2,3,2,0,0,4,5,1};
+    int n = arr.size();
+    vector<int> ans = moveZeors(n, arr);
+    for(auto &it: ans) {
+      cout<<it<<" ";
+    }
+    cout<<endl;
+    return 0;
+}
+
+optimal approach -> 
+
+class Solution {
+public:
+    void moveZeroes(vector<int>& nums) {
+        
+        int j = 0;
+        for(int i = 0; i < nums.size(); i++){
+            if(nums[i] != 0){
+                nums[j++] = nums[i];
+            }
+        }
+        
+        for(int i = j; i < nums.size(); i++){
+            nums[i] = 0;
+        }
+        
+    }
+};
 
