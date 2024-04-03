@@ -46,3 +46,26 @@ public:
         return count;
     }
 };
+
+Q4. 
+class Solution {
+public:
+    vector<bool> kidsWithCandies(vector<int>& candies, int extraCandies) {
+        int n = candies.size();
+        int greatestCandie = candies[0];
+        for(int i=0;i<n;i++) {
+            if(candies[i] > greatestCandie) {
+                greatestCandie = candies[i];
+            }
+        }
+        vector<bool> boolean_array;
+        for(int i=0;i<n;i++) {
+            if((candies[i] + extraCandies) >= greatestCandie) {
+                boolean_array.push_back(true);
+            }else {
+                boolean_array.push_back(false);
+            }
+        }
+        return boolean_array;
+    }
+};
