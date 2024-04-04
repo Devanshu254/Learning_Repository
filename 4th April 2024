@@ -1,2 +1,23 @@
 Today, I have studied aptitude and I have revised the lectures which has been studied yesterday. 
 Tomorrow I will cover new topics with new lectures.
+
+One LeetCode Question.
+class Solution {
+public:
+    int mostWordsFound(vector<string>& sentences) {
+        int longest_sentence = INT_MIN;
+        int n = sentences.size();
+        for(int i=0;i<n;++i) {
+            int count = 1;
+            for(int j=0;j<sentences[i].size();++j) {
+                if(sentences[i][j] == ' ') {
+                    count++;
+                }else {
+                    continue;
+                }
+            }
+            longest_sentence = max(longest_sentence, count);
+        }
+        return longest_sentence;
+    }
+};
