@@ -1,1 +1,19 @@
-
+Link -> https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/description/
+Solution -> class Solution {
+public:
+    vector<int> countPoints(vector<vector<int>>& points, vector<vector<int>>& queries) {
+        vector<int> v;
+        int count = 0;
+        for(int i=0;i<queries.size();++i) {
+            for(int j=0;j<points.size();++j) {
+               if(sqrt(pow(queries[i][0]-points[j][0],2) +
+                pow(queries[i][1]-points[j][1],2)) <= queries[i][2]) {
+                    count++;
+                } 
+            }
+            v.push_back(count);
+            count = 0;
+        }
+        return v;
+    }
+};
