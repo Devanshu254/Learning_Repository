@@ -39,8 +39,8 @@ int main() {
     return 0;
 }
 
-Q3. 
-Solutioin -> 
+Q3. https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/
+Solution -> 
 class Solution {
 public:
     int sumIndicesWithKSetBits(vector<int>& nums, int k) {
