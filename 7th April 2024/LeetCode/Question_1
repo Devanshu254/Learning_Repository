@@ -18,7 +18,9 @@ public:
     }
 };
 
-Q2. #include <iostream>
+Q2. If two strings are given string 1 and string 2 and we want to remove string 2 from string 1 then how we will do this ? 
+Answer -> 
+#include <iostream>
 #include <string>
 using namespace std;
 
