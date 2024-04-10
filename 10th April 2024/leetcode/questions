@@ -9,3 +9,30 @@ public:
         return result;
     }
 };
+
+Q2.
+class Solution {
+public:
+    vector<int> leftRightDifference(vector<int>& nums) {
+        int n = nums.size();
+        vector<int> leftSum(n);
+        leftSum[0] = 0;
+        int sumL = 0;
+        vector<int> rightSum(n);
+        rightSum[n-1] = 0;
+        vector<int> result(n);
+        for(int i=0;i<n-1;++i) {
+            leftSum[i+1] = nums[i]+sumL;
+            sumL = leftSum[i+1];
+        }
+        sumL = 0;
+        for(int i=n-1; i>=1; i--) {
+            rightSum[i-1] = sumL + nums[i];
+            sumL = rightSum[i-1];
+        }
+        for(int i=0;i<n;++i) {
+            result[i] = abs(leftSum[i]-rightSum[i]);
+        }
+        return result;
+    }
+};
