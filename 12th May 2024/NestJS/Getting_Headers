@@ -1,0 +1,20 @@
+import { Controller, Get, Param, Query, Headers } from "@nestjs/common";
+@Controller('/users')
+export class UserController {
+    @Get('/videos')
+    getVideos(@Headers() header: Record<string,any>) {
+        console.log(header);
+        return 'Success';
+    }
+}
+
+import { Controller, Get, Param, Query, Headers } from "@nestjs/common";
+// If we want to get a particular Id.
+@Controller('/users')
+export class UserController {
+    @Get('/videos')
+    getVideos(@Headers('user-agent') header: Record<string,any>) {
+        console.log(header);
+        return 'Success';
+    }
+}
