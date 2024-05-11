@@ -6,7 +6,7 @@ interface VideoQuery {
 }
 @Controller('/users')
 export class UserController {
-    @Get('/videos/:id')
+    @Get('/videos/:id/:name')
     getVideos(@Param() params: VideoQuery) {
         console.log(params.id);
         console.log(params.name);
