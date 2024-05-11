@@ -1,0 +1,35 @@
+import { Controller, Post, Body } from "@nestjs/common";
+
+interface VideoDTO {
+    name: string;
+    date: string;
+}
+@Controller('/users')
+export class UserController {
+    @Post('/video')
+    addVideo(@Body() requestData: VideoDTO) {
+        console.log(requestData.name);
+        console.log(requestData.date);
+        console.log(requestData);
+        return {success: true};
+    }
+}
+
+// This will handle URL data and JSON Data.
+// @Controller('/users')
+// export class UserController {
+//     @Post('/video')
+//     addVideo(@Body() requestData: Record<string, any>) {
+//         console.log(requestData);
+//         return {success: true};
+//     }
+// }
+
+// @Controller('/users')
+// export class UserController {
+//     @Post('/video')
+//     addVideo(@Body('name') requestData: string) {
+//         console.log(requestData);
+//         return {success: true};
+//     }
+// }
