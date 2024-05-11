@@ -1,16 +1,15 @@
-import { Controller, Get, Param } from "@nestjs/common";
-
-interface VideoQuery {
-    id: number;
+import { Controller, Get, Param, Query } from "@nestjs/common";
+interface QueryParams {
     name: string;
+    age: number;
 }
 @Controller('/users')
 export class UserController {
-    @Get('/videos/:id/:name')
-    getVideos(@Param() params: VideoQuery) {
-        console.log(params.id);
-        console.log(params.name);
-        console.log(params);
+    @Get('/videos')
+    getVideos(@Query() query: QueryParams) {
+        console.log(query.name);
+        console.log(query.age);
+        console.log(query);
         return 'Success';
     }
 }
