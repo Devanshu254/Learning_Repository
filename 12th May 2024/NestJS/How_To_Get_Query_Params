@@ -1,0 +1,16 @@
+import { Controller, Get, Param } from "@nestjs/common";
+
+interface VideoQuery {
+    id: number;
+    name: string;
+}
+@Controller('/users')
+export class UserController {
+    @Get('/videos/:id')
+    getVideos(@Param() params: VideoQuery) {
+        console.log(params.id);
+        console.log(params.name);
+        console.log(params);
+        return 'Success';
+    }
+}
