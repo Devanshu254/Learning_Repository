@@ -16,3 +16,6 @@ Answer: The async attribute allows the browser to download the script file asy
 Q7. Can we create any custom element like your name is Devanshu so, can we create an HTML or anything like with any name?
 
 Answer → CSS Just ignores if something is not valid but in HTML you can create any Tag name, you can create Devanshu or any other tag name.
+Q8. What will be the display value of the randomly created elements display type like inline or block.
+
+Answer → By default all the elements will be inline so it should be inline.
