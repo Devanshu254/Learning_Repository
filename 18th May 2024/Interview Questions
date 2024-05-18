@@ -6,3 +6,6 @@ Answer: The <!DOCTYPE> declaration specifies the document type and version of 
 **Q3. Where should we link our JavaScript file in HTML: inside the `<head>` tag or just before the closing `<body>` tag?**
 
 **Answer:** It’s better to place the JavaScript link just before the closing **`</body>`** tag. This ensures that the DOM (Document Object Model) is fully loaded before executing any JavaScript code. If placed in the **`<head>`** tag, the DOM elements may not be available yet.
+**Q4. What if I want to put the JavaScript link in the `<head>` tag, even though it accesses DOM elements?**
+
+**Answer:** You can use the **`defer`** attribute. When applied to the **`<script>`** tag, it tells the browser to download the JavaScript file but execute it only after the DOM has finished parsing.
