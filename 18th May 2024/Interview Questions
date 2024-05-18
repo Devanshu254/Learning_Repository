@@ -13,3 +13,6 @@ Q5. What’s the difference between placing the script tag in the <head> and 
 Answer: When placed in the <head>, the script file is downloaded immediately, but execution waits until after the DOM is fully parsed. In the <body>, the script is downloaded and executed sequentially as it appears in the HTML.
 Q6. What does the async attribute do on the script tag?
 Answer: The async attribute allows the browser to download the script file asynchronously (without blocking HTML parsing). Once downloaded, it executes immediately, even if the DOM is not fully parsed. This can lead to unpredictable behavior, so use it carefully.
+Q7. Can we create any custom element like your name is Devanshu so, can we create an HTML or anything like with any name?
+
+Answer → CSS Just ignores if something is not valid but in HTML you can create any Tag name, you can create Devanshu or any other tag name.
