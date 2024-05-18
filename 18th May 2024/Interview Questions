@@ -19,3 +19,21 @@ Answer → CSS Just ignores if something is not valid but in HTML you can create
 Q8. What will be the display value of the randomly created elements display type like inline or block.
 
 Answer → By default all the elements will be inline so it should be inline.
+
+Q9. Difference between inline and block elements?
+
+Answer → 
+
+Q10. Can we give padding to inline elements?
+
+Answer → Yes.
+
+Q11. What is display properties of Images?
+
+Answer → Images are inline. We can give them height and width.
+
+Q12. How is it possible to give height and width to images?
+
+Answer → There are two categories of inline elements. Replaced Inline elements and non replaced inline elements, so replaced are those which comes through some source like image, video, iframe on all these we can give height and width. 
+
+Non replaced means span tag, anchor tag vol tag, italic tags on those things we can on those things we can not give attribute.
