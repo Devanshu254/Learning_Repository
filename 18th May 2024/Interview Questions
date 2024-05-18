@@ -9,3 +9,5 @@ Answer: The <!DOCTYPE> declaration specifies the document type and version of 
 **Q4. What if I want to put the JavaScript link in the `<head>` tag, even though it accesses DOM elements?**
 
 **Answer:** You can use the **`defer`** attribute. When applied to the **`<script>`** tag, it tells the browser to download the JavaScript file but execute it only after the DOM has finished parsing.
+Q5. What’s the difference between placing the script tag in the <head> and <body>?
+Answer: When placed in the <head>, the script file is downloaded immediately, but execution waits until after the DOM is fully parsed. In the <body>, the script is downloaded and executed sequentially as it appears in the HTML.
