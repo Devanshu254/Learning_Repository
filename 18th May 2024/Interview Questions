@@ -1,1 +1,2 @@
-
+Q1. In HTML, why do we use Doctype?
+Answer: The <!DOCTYPE> declaration specifies the document type and version of HTML being used. It ensures that the browser renders the page correctly by following the appropriate standards.
