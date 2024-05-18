@@ -1,2 +1,5 @@
 Q1. In HTML, why do we use Doctype?
 Answer: The <!DOCTYPE> declaration specifies the document type and version of HTML being used. It ensures that the browser renders the page correctly by following the appropriate standards.
+**Q2. What is the purpose of the `<head>` tag in HTML?**
+
+**Answer**:  It basically includes all the meta tags which are basically used for SEO. It can also include external links like our Script Files and CSS files.
