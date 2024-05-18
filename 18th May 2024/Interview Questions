@@ -11,3 +11,5 @@ Answer: The <!DOCTYPE> declaration specifies the document type and version of 
 **Answer:** You can use the **`defer`** attribute. When applied to the **`<script>`** tag, it tells the browser to download the JavaScript file but execute it only after the DOM has finished parsing.
 Q5. What’s the difference between placing the script tag in the <head> and <body>?
 Answer: When placed in the <head>, the script file is downloaded immediately, but execution waits until after the DOM is fully parsed. In the <body>, the script is downloaded and executed sequentially as it appears in the HTML.
+Q6. What does the async attribute do on the script tag?
+Answer: The async attribute allows the browser to download the script file asynchronously (without blocking HTML parsing). Once downloaded, it executes immediately, even if the DOM is not fully parsed. This can lead to unpredictable behavior, so use it carefully.
