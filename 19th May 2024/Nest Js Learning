@@ -40,3 +40,5 @@ const module: TestingModule = await Test.createTestingModule({
           provide: AuthService,
           useValue: fakeAuthService,
         },
+],
+    }).compile();
