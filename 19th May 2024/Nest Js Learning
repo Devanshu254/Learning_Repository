@@ -5,3 +5,7 @@ import { AuthService } from './auth.service';
 import { User } from './user.entity';
 import { NotFoundException } from '@nestjs/common';
 import { AuthGuard } from 'src/guards/auth.guard';
+describe('UsersController', () => {
+  let controller: UsersController;
+  let fakeUsersService: Partial<UsersService>;
+  let fakeAuthService: Partial<AuthService>;
