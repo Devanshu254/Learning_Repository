@@ -44,3 +44,6 @@ const module: TestingModule = await Test.createTestingModule({
     }).compile();
   controller = module.get<UsersController>(UsersController);
   });
+it('should be defined', () => {
+    expect(controller).toBeDefined();
+  });
