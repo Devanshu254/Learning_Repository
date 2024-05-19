@@ -42,3 +42,5 @@ const module: TestingModule = await Test.createTestingModule({
         },
 ],
     }).compile();
+  controller = module.get<UsersController>(UsersController);
+  });
