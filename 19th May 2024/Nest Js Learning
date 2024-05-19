@@ -68,3 +68,7 @@ it('signin updates session object and returns user', async () => {
     },
     session
   );
+ expect(user.id).toEqual(1);
+  expect(session.userId).toEqual(1);
+  });
+});
