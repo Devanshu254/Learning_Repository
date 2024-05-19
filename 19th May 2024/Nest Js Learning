@@ -36,3 +36,7 @@ const module: TestingModule = await Test.createTestingModule({
           provide: UsersService,
           useValue: fakeUsersService,
         },
+{
+          provide: AuthService,
+          useValue: fakeAuthService,
+        },
