@@ -9,3 +9,12 @@ describe('UsersController', () => {
   let controller: UsersController;
   let fakeUsersService: Partial<UsersService>;
   let fakeAuthService: Partial<AuthService>;
+beforeEach(async () => {
+    fakeUsersService = {
+      findOne: (id: number) => {
+        return Promise.resolve({
+          id,
+          email: 'asdf@asdf.com',
+          password: 'asdf',
+        } as User);
+      },
