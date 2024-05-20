@@ -1,4 +1,4 @@
-// Below is 
+// Below is the
 #include<bits/stdc++.h>
 using namespace std;
 int main() {
