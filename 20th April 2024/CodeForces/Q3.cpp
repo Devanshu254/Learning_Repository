@@ -1,5 +1,5 @@
 // Problem link -> https://codeforces.com/problemset/problem/158/A
-// Below
+// Below is
 #include<bits/stdc++.h>
 using namespace std;
 int main() {
