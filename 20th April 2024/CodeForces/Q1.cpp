@@ -1,5 +1,5 @@
 // Problem Link -> https://codeforces.com/problemset/problem/231/A
-// Current Status -> Not Solved.
+// Current Status -> Solved.
 #include<bits/stdc++.h>
 using namespace std;
 int main() {
