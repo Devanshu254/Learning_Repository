@@ -1,6 +1,6 @@
 // Problem Link -> https://codeforces.com/problemset/problem/231/A
 // Current Status -> Solved.
-// Below
+// Below is
 #include<bits/stdc++.h>
 using namespace std;
 int main() {
