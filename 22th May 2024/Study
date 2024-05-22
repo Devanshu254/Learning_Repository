@@ -3,3 +3,11 @@ SQL stands for Structured Query Language. It is a language used to interact with
 to create a table in the database, to retrieve data or update a table in the database, etc. SQL is an 
 ANSI(American National Standards Institute) standard. Using SQL, we can do many things. For example – we can execute queries, 
 we can insert records into a table, can update records, can create a database, can create a table, can delete a table, etc.
+
+2. What is a database? 
+A Database is defined as a structured form of data storage in a computer or a collection of data in an organized manner and 
+can be accessed in various ways. It is also the collection of schemas, tables, queries, views, etc. Databases help us with 
+easily storing, accessing, and manipulating data held on a computer. The Database Management System allows a user to interact 
+with the database.
+
+
