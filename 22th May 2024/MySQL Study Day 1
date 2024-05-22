@@ -22,3 +22,6 @@ not be allowed to store a string of any other length in this variable, but if we
 varchar2(5) then we will be allowed to store strings of variable length. We can store a string of length 3 or 4 or 2 
 in this variable.
 
+5. What do you mean by data definition language? 
+Data definition language or DDL allows to execution of queries like CREATE, DROP, and ALTER. That is those queries that define the data.
+
