@@ -10,4 +10,8 @@ can be accessed in various ways. It is also the collection of schemas, tables, q
 easily storing, accessing, and manipulating data held on a computer. The Database Management System allows a user to interact 
 with the database.
 
+3. Does SQL support programming language features? 
+It is true that SQL is a language, but it does not support programming as it is not a programming language, it is a command language. 
+We do not have conditional statements in SQL like for loops or if..else, we only have commands which we can use to query, update, 
+delete, etc. data in the database. SQL allows us to manipulate data in a database.
 
