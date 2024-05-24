@@ -3,3 +3,6 @@ Java is a statically-typed, compiled programming language designed for building 
 It requires writing more boilerplate code but offers greater control over system resources.
 JavaScript is a dynamically-typed, interpreted scripting language primarily used for enhancing interactivity 
 and functionality in web pages.
+
+Java applications run on the Java Virtual Machine (JVM) and can operate on any device or operating system that has the JVM installed.
+JavaScript code is executed in web browsers and can also run on servers via Node.js.
