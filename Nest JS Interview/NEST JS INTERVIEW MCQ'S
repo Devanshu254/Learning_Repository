@@ -21,3 +21,11 @@ C. Transform or validate incoming data.
 D. Manage outgoing responses.
 
 Answer -> Option C.
+
+Q4. Which decorator is used to associate a Guard with a route or controller?
+A. @Guard()
+B. @UseGuards()
+C. @ApplyGuard()
+D. @GuardProvider()
+
+Answer -> Option B.
