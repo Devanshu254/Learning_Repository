@@ -37,3 +37,11 @@ C. Using the decorator @Provider()
 D. Using the decorator @Component()
 
 Answer -> Option B.
+
+Q6. In what order are module lifecycle methods executed?
+A. onModuleInit, onApplicationShutdown, onModuleDestroy
+B. onApplicationShutdown, onModuleDestroy, onModuleInit
+C. onModuleInit, onModuleDestroy, onApplicationShutdown
+D. onModuleDestroy, onModuleInit, onApplicationShutdown
+
+Answer -> Option C.
