@@ -13,3 +13,11 @@ C. Using the useGlobalFilters() method of the NestFactory class.
 D. By adding it to the imports table in the main module.
 
 Answer -> Option C.
+
+Q3. What is the main responsibility of a pipe in Nest.js?
+A. Catch and handle exceptions.
+B. Execute code before and after the route handler.
+C. Transform or validate incoming data.
+D. Manage outgoing responses.
+
+Answer -> Option C.
