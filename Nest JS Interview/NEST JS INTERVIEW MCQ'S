@@ -1,7 +1,15 @@
 Q1. In Nest.js, which decorator do you use to declare a class as a controller?
-@Route
-@Controller
-@Component
-@Module
+A. @Route
+B. @Controller
+C. @Component
+D. @Module
 
 Answer -> @Controller
+
+Q2. How can you make an ExceptionFilter global so that it applies to your entire application?
+A. By adding it to the providers table in the main module.
+B. Using the useGlobalFilters() method of the AppModule class.
+C. Using the useGlobalFilters() method of the NestFactory class.
+D. By adding it to the imports table in the main module.
+
+Answer -> Option C.
