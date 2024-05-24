@@ -1,1 +1,7 @@
+Q1. In Nest.js, which decorator do you use to declare a class as a controller?
+@Route
+@Controller
+@Component
+@Module
 
+Answer -> @Controller
