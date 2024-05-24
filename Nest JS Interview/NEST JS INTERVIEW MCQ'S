@@ -45,3 +45,29 @@ C. onModuleInit, onModuleDestroy, onApplicationShutdown
 D. onModuleDestroy, onModuleInit, onApplicationShutdown
 
 Answer -> Option C.
+
+Q7. Why are modules used in Nest.js?
+A. To organize code into reusable units
+B. To facilitate the decoupling of functions
+C. To increase application speed
+D. To create clear boundaries between functions
+
+Answer -> Option A, Option B and Option D.
+Modules in nest js are used to organized code into separate, reusable pieces, making it easier to maintain and scale application.
+They also help in dividing the app into logical section, allowing for better development and collaboration.
+
+Q8. How can you make a Nest.js module "global"?
+A. By importing it into the AppModule module
+B. Using the @Global() decorator
+C. By placing it in a specific folder
+D. By adding it to a globals array in the main module
+
+Answer -> Option B, by using @Global() decorator.
+
+Q9. What is the main use of the OnModuleInit interface in Nest.js?
+A. It provides a method for executing logic when the module is initialized.
+B. It is used to initialize the module's routes.
+C. It creates middleware for the module.
+D. It is used to inject dependencies into the module.
+
+Answer -> Option A. The OnModuleInit interface provides an onModuleInit() method which is called once the module has been initialized.
