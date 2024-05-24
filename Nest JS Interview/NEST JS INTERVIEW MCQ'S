@@ -29,3 +29,11 @@ C. @ApplyGuard()
 D. @GuardProvider()
 
 Answer -> Option B.
+
+Q5. In Nest.js, how would you define a service or component that can be injected?
+A. Using the decorator @Service()
+B. Using the decorator @Injectable()
+C. Using the decorator @Provider()
+D. Using the decorator @Component()
+
+Answer -> Option B.
