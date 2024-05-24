@@ -1,1 +1,5 @@
 1. What are the differences between Java and JavaScript? 
+Java is a statically-typed, compiled programming language designed for building more complex applications.
+It requires writing more boilerplate code but offers greater control over system resources.
+JavaScript is a dynamically-typed, interpreted scripting language primarily used for enhancing interactivity 
+and functionality in web pages.
