@@ -1,4 +1,4 @@
-// Below is the
+// Below is the solution.
 class Solution {
 public:
     vector<int> numberGame(vector<int>& nums) {
