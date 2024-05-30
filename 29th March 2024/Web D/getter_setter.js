@@ -1,4 +1,4 @@
-// Below
+// Below is
 class User {
     constructor(name) {
         // Invokes the setter.
