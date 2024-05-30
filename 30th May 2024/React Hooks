@@ -9,3 +9,6 @@ ko access karne mein madat karte hein.
 English translation definition: Hooks are some functions which allows us to use react features within the functional 
 component [Functional Component is one way to create components in a React Application]. 
 Use State and Use Effect Hooks are mostly used hooks.
+
+const[count, setCount] = useState(0) -> This means ki eak count naam ka state banao jiska initial value kardo 0. Aur eak eaisa 
+function setCount ho jo is count ko update kar sake.
