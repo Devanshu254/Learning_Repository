@@ -5,3 +5,7 @@ there are no plans to remove classes from React.
 
 Answer -> React Hooks are some functions joki hamein react ke ander rehte hue, functional component ke ander react ke features 
 ko access karne mein madat karte hein.
+
+English translation definition: Hooks are some functions which allows us to use react features within the functional 
+component [Functional Component is one way to create components in a React Application]. 
+Use State and Use Effect Hooks are mostly used hooks.
