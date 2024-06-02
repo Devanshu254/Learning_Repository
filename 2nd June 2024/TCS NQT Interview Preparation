@@ -56,3 +56,15 @@ Strings – That contains the homogenous sequence of data
 Special Symbols – They have some special meaning and cannot be used for another purpose; eg: [] () {}, ; * = # 
 Operators – Who perform operations on the operand
 For more information, refer to Tokens in C++
+
+7. What is the difference between C and C++?
+C
+
+C++
+
+It is a procedural programming language. In simple words, it does not support classes and objects	It is a mixture 
+of both procedural and object-oriented programming languages. In simple words, it supports classes and objects.
+It does not support any OOPs concepts like polymorphism, data abstraction, encapsulation, classes, and objects.	
+It supports all concepts of data 
+It does not support Function and Operator Overloading	It supports Function and Operator Overloading respectively
+It is a function-driven language	It is an object-driven language
