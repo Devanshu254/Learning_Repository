@@ -68,3 +68,5 @@ It does not support any OOPs concepts like polymorphism, data abstraction, encap
 It supports all concepts of data 
 It does not support Function and Operator Overloading	It supports Function and Operator Overloading respectively
 It is a function-driven language	It is an object-driven language
+
+8. What is the difference between struct and class?
