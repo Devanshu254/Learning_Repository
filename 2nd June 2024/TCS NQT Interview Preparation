@@ -17,3 +17,13 @@ To read more, refer to the article – What are the advantages of C++?
 the compiler to add everything under the std namespace and inculcate them in the global namespace. This all inculcation of
 global namespace benefits us to use “cout” and “cin” without using “std::_operator_”.
 For more information, refer to namespace and std.
+
+4. What are references in C++?
+When a variable is described as a reference it becomes an alias of the already existing variable. In simple terms, a referenced variable is another named variable of an existing variable keeping in mind that changes made in the reference variable will be reflected in the already existing variable. A reference variable is preceded with a ‘&’ symbol.
+
+Syntax:
+
+int GFG = 10;
+
+// reference variable
+int& ref = GFG;
