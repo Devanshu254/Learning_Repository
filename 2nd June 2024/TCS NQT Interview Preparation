@@ -42,4 +42,17 @@ The changes made in the function are never reflected outside the function on the
 In short, the original value is never altered in Call by Value.	
 The changes made in the functions can be seen outside the function on the passed function. 
 In short, the original value is altered in Call by reference.
-Passed actual and formal parameters are stored in different memory locations. Therefore, making Call by Value a little memory insufficient 	Passed actual and formal parameters are stored in the same memory location. Therefore, making Call by Reference a little more memory efficient.
+Passed actual and formal parameters are stored in different memory locations. Therefore, making Call by Value a little memory 
+insufficient 	Passed actual and formal parameters are stored in the same memory location. 
+Therefore, making Call by Reference a little more memory efficient.
+
+6. Define token in C++
+A token is the smallest individual element of a program that is understood by a compiler. A token comprises the following:
+
+Keywords – That contain a special meaning to the compiler
+Identifiers – That hold a unique value/identity 
+Constants – That never change their value throughout the program 
+Strings – That contains the homogenous sequence of data 
+Special Symbols – They have some special meaning and cannot be used for another purpose; eg: [] () {}, ; * = # 
+Operators – Who perform operations on the operand
+For more information, refer to Tokens in C++
