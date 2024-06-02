@@ -1,3 +1,11 @@
 1. What is C++? What are the advantages of C++?
 Answer - C++ is an object-oriented programming language that was introduced to overcome the jurisdictions where C was lacking. 
 By object-oriented we mean that it works with the concept of polymorphism, inheritance, abstraction, encapsulation, object, and class.
+
+Advantages of C++:
+
+C++ is an OOPs language that means the data is considered as objects.
+C++ is a multi-paradigm language; In simple terms, it means that we can program the logic, structure, and procedure of the program.
+Memory management is a key feature in C++ as it enables dynamic memory allocation
+It is a Mid-Level programming language which means it can develop games, desktop applications, drivers, and kernels
+To read more, refer to the article – What are the advantages of C++?
