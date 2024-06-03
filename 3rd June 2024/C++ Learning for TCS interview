@@ -40,3 +40,13 @@ Passed actual and formal parameters are stored in the same memory location. Ther
 little more memory efficient.
 
 7. What is the difference between C and C++?
+Answer -> C
+
+C++
+
+It is a procedural programming language. In simple words, it does not support classes and objects	It is a mixture of 
+both procedural and object-oriented programming languages. In simple words, it supports classes and objects.
+It does not support any OOPs concepts like polymorphism, data abstraction, encapsulation, classes, and objects.
+It supports all concepts of data 
+It does not support Function and Operator Overloading	It supports Function and Operator Overloading respectively
+It is a function-driven language	It is an object-driven language
