@@ -22,3 +22,5 @@ Answer -> When a variable is described as a reference it becomes an alias of the
 In simple terms, a referenced variable is another named variable of an existing variable keeping in mind that 
 changes made in the reference variable will be reflected in the already existing variable. A reference variable 
 is preceded with a ‘&’ symbol.
+
+5. What do you mean by Call by Value and Call by Reference?
