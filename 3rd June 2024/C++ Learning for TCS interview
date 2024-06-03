@@ -35,4 +35,8 @@ Calling a function by sending the values by copying variables.	Calling a functio
 The changes made in the function are never reflected outside the function on the variable. In short, 
 the original value is never altered in Call by Value.	The changes made in the functions can be seen outside 
 the function on the passed function. In short, the original value is altered in Call by reference.
-Passed actual and formal parameters are stored in different memory locations. Therefore, making Call by Value a little memory insufficient 	Passed actual and formal parameters are stored in the same memory location. Therefore, making Call by Reference a little more memory efficient.
+Passed actual and formal parameters are stored in different memory locations. Therefore, making Call by Value a little memory insufficient 
+Passed actual and formal parameters are stored in the same memory location. Therefore, making Call by Reference a 
+little more memory efficient.
+
+7. What is the difference between C and C++?
