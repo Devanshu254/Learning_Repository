@@ -24,3 +24,15 @@ changes made in the reference variable will be reflected in the already existing
 is preceded with a ‘&’ symbol.
 
 5. What do you mean by Call by Value and Call by Reference?
+Answer -> In this programming language to call a function we have 2 methods: Call by Value and Call by Reference
+
+Call by Value
+
+Call by Reference
+
+A copy of a variable is passed.	A variable itself is passed fundamentally.
+Calling a function by sending the values by copying variables.	Calling a function by sending the address of the passed variable.
+The changes made in the function are never reflected outside the function on the variable. In short, 
+the original value is never altered in Call by Value.	The changes made in the functions can be seen outside 
+the function on the passed function. In short, the original value is altered in Call by reference.
+Passed actual and formal parameters are stored in different memory locations. Therefore, making Call by Value a little memory insufficient 	Passed actual and formal parameters are stored in the same memory location. Therefore, making Call by Reference a little more memory efficient.
