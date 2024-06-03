@@ -16,3 +16,5 @@ The command “using namespace std” informs the compiler to add everything und
 std namespace and inculcate them in the global namespace. This all inculcation of global namespace benefits
 us to use “cout” and “cin” without using “std::_operator_”.
 For more information, refer to namespace and std.
+
+4. What are references in C++?
