@@ -9,3 +9,10 @@ Memory management is a key feature in C++ as it enables dynamic memory allocatio
 It is a Mid-Level programming language which means it can develop games, desktop applications, drivers, and kernels
 
 2. What are the different data types present in C++?
+
+3. Define ‘std’?
+‘std’ is also known as Standard or it can be interpreted as a namespace. 
+The command “using namespace std” informs the compiler to add everything under the 
+std namespace and inculcate them in the global namespace. This all inculcation of global namespace benefits
+us to use “cout” and “cin” without using “std::_operator_”.
+For more information, refer to namespace and std.
