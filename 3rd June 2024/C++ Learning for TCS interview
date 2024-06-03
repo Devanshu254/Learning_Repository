@@ -75,3 +75,21 @@ The memory location of reference can be accessed easily or it can be used direct
 pointer cannot be accessed easily as we have to use a dereference ‘ * ‘ 
 
 10. What is the difference between function overloading and operator overloading?
+Answer -> Function Overloading
+
+Operator Overloading
+
+It is basically defining a function in numerous ways such that there are many ways to call it or in simple terms you
+have multiple versions of the same function	It is basically giving practice of giving a special meaning to the existing
+meaning of an operator or in simple terms redefining the pre-redefined meaning                          
+Parameterized Functions are a good example of Function Overloading as just by changing the argument or parameter of a 
+function you make it useful for different purposes 	Polymorphism is a good example of an operator overloading as an object
+of allocations class can be used and called by different classes for different purposes
+Example of Function Overloading:
+
+int GFG(int X, int Y);
+int GFG(char X, char Y);
+Example of Operator Overloading:
+
+int GFG() = X() + Y();
+int GFG() = X() – Y();
