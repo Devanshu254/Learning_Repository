@@ -49,4 +49,14 @@ both procedural and object-oriented programming languages. In simple words, it s
 It does not support any OOPs concepts like polymorphism, data abstraction, encapsulation, classes, and objects.
 It supports all concepts of data 
 It does not support Function and Operator Overloading	It supports Function and Operator Overloading respectively
-It is a function-driven language	It is an object-driven language
+It is a function-driven language	It is an object-driven language.
+
+8. What is the difference between struct and class?
+Answer -> Struct
+
+Class
+
+Members of the struct are always by default public mode	Members of the class can be in private, protected, and public modes.
+Structures are of the value type. They only hold value in memory.	Classes are of reference type. It holds a reference 
+of an object in memory.
+The memory in structures is stored as stacks	The memory in classes is stored as heaps.
