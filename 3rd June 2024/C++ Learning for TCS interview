@@ -73,3 +73,5 @@ It cannot work with arrays	It can work with arrays
 To access the members of class/struct it uses a ‘ . ‘	To access the members of class/struct it uses a ‘ -> ‘ 
 The memory location of reference can be accessed easily or it can be used directly	The memory location of a 
 pointer cannot be accessed easily as we have to use a dereference ‘ * ‘ 
+
+10. What is the difference between function overloading and operator overloading?
