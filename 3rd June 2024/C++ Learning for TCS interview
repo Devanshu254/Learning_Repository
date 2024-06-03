@@ -60,3 +60,4 @@ Members of the struct are always by default public mode	Members of the class can
 Structures are of the value type. They only hold value in memory.	Classes are of reference type. It holds a reference 
 of an object in memory.
 The memory in structures is stored as stacks	The memory in classes is stored as heaps.
+9. What is the difference between reference and pointer?
