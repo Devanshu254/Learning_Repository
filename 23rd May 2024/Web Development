@@ -1,4 +1,4 @@
-// Below
+// Below is 
 # Why react ?
 -> We can use states which means that once we update the state variable, it changes across the page.
 -> We can split our app into multiple components and resuse these components.
