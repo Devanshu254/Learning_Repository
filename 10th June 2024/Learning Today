@@ -1,5 +1,7 @@
 Abstraction vs Encapsulation with coding example.
 
+Some 
+
 #include<iostream>
 using namespace std;
 
