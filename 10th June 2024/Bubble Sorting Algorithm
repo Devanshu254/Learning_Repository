@@ -1,3 +1,6 @@
+TC = O(N^2).
+Stable Sorting Algorithm and Inplace.
+
 #include <bits/stdc++.h>
 using namespace std;
 
