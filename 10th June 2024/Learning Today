@@ -1,6 +1,11 @@
 Abstraction vs Encapsulation with coding example.
 
 Some theory.
+Abstraction is a process of hiding the implementation details and showing only the functionality to the user. 
+In other words, it deals with the outside view of an object (interface).
+
+Encapsulation is a process of wrapping code and data together into a single unit. 
+It binds together the data and functions that manipulate the data.
 
 #include<iostream>
 using namespace std;
