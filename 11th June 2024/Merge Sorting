@@ -33,4 +33,38 @@ int main() {
     return 0;
 }
 
+// Efficient Solution.
+Time Complexity: O(m+n).
+
+#include<bits/stdc++.h>
+using namespace std;
+void MergeTwoSortedArrays(int arr1[], int arr2[], int n, int m) {
+    int i=0, j=0;
+    while(i<n && j<m) {
+        if(arr1[i] <= arr2[j]) {
+            cout<<arr1[i]<<" ";
+            i++;
+        }else {
+            cout<<arr2[j]<<" ";
+            j++;
+        }
+    }
+    while(i<n) {
+        cout<<arr1[i]<<" ";
+        i++;
+    }
+    while(j<m) {
+        cout<<arr2[j]<<" ";
+        j++;
+    }
+} 
+int main() {
+    int arr1[] = {10, 15, 20};
+    int arr2[] = {5, 6, 6, 15};
+    int N = sizeof(arr1)/sizeof(arr1[0]);
+    int M = sizeof(arr2)/sizeof(arr2[0]);
+    MergeTwoSortedArrays(arr1, arr2, N, M);
+    return 0;
+}
+
 
