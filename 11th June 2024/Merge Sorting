@@ -67,4 +67,8 @@ int main() {
     return 0;
 }
 
+// Now there is another problem: We are given an array in which element from low to mid are sorted and element from mid+1 to high.
+// are sorted. We need to sort the array from low to high.
+
+
 
