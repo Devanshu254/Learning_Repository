@@ -3,4 +3,5 @@ It is stable algorithm.
 Theta(n logn) time is needed and O(n) aux space.
 Well Suited For Linkdlist. Works in O(1).
 Used in External sorting.
+In General For it, Quick Sort outperforms it.
 
