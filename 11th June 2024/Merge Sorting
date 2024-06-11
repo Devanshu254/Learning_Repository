@@ -5,3 +5,6 @@ Well Suited For Linkdlist. Works in O(1).
 Used in External sorting.
 In General For it, Quick Sort outperforms it.
 
+// Naive Solution: Create another temp array and place both arr1 and arr2 within temp array and then sort it.
+
+
