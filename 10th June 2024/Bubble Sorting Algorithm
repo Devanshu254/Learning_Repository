@@ -1,5 +1,5 @@
 TC = O(N^2).
-Best
+Best time
 Stable Sorting Algorithm and Inplace.
 
 #include <bits/stdc++.h>
