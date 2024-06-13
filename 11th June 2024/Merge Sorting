@@ -9,6 +9,8 @@ In General For it, Quick Sort outperforms it.
 Time Complexity: O((m+n)*log(m+n)). 
 Aux Space: Theta(m+n).
 
+Actual Time Complexity: Best: O(N*logN), Worst and Average: O(N*logN). 
+
 #include<bits/stdc++.h>
 using namespace std;
 void MergeTwoSortedArrays(int arr1[], int arr2[], int n, int m) {
