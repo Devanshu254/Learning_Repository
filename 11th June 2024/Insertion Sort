@@ -1,5 +1,5 @@
 // Time Complexity: O(N^2).
-Best time
+Best time complexity: O(N).
 // Inplace and stable.
 
 #include<bits/stdc++.h>
