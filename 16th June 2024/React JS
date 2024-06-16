@@ -55,3 +55,6 @@ return (
 
 export default App;
 
+Output: In this example, we have a button called ACTION, whenever we click on the button the onClickHandler 
+is getting triggered and it’s focusing the textarea with the help of useRef hook.
+
