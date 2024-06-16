@@ -7,3 +7,6 @@ Reasons to use useRef hook
 The main use of useRef hook is to access the DOM elements in a more efficient way as compared to simple refs. 
 Since useRef hooks preserve value across various re-renders and do not cause re-renders whenever a value is changed they make 
 the application faster and helps in caching and storing previous values
+
+Importing useRef hook
+To import the useRef hook, write the following code at the top level of your component
