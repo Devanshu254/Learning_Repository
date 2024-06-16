@@ -11,3 +11,6 @@ the application faster and helps in caching and storing previous values
 Importing useRef hook
 To import the useRef hook, write the following code at the top level of your component
 import { useRef } from 'react';
+
+Structure of useRef hook
+It accepts only one initial value
