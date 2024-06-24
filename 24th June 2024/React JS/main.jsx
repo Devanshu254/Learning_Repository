@@ -1,4 +1,4 @@
-// Following is the best
+// Following is the best way
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
