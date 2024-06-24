@@ -12,3 +12,7 @@ function App() {
 const handleMouseOver = () => {
     alert("Hey! I am clicked again.")
   }
+  const handleChange = (e) => {
+    setForm({...form, [e.target.name]:e.target.value});
+    console.log(form)
+  }
