@@ -6,3 +6,7 @@ function App() {
   const [count, setCount] = useState(0)
   // const [name, setName] = useState("Harry")
   const [form, setForm] = useState({email: "", phone: ""})
+  const handleClick = ()=>{
+    alert("Hey! I am clicked.")
+  }
+
