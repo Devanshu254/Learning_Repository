@@ -1,4 +1,4 @@
-// Following is the best way
+// Following is the best way to
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
