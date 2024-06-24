@@ -10,3 +10,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.red {
+  background-color: red;
+  color: white;
+  height: 244px;
+  width: 355px;
+}
