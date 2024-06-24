@@ -31,3 +31,4 @@ const handleMouseOver = () => {
     </>
   )
 }
+export default App
