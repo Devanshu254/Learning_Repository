@@ -27,4 +27,7 @@ function App() {
           <input onChange = {handleChange} value = {todo} type="text" className='w-1/2'/>
           <button onClick={handleAdd} className="bg-violet-800 hover:bg-violet-950 p-2 py-1 text-sm font-bold text-white rounded-md mx-6">Add</button>
         </div>
+        <div className='text-lg font-bold'>
+          <h2>Your Todos</h2>
+        </div>
 
