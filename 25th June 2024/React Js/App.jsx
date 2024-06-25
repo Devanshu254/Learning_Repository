@@ -11,3 +11,7 @@ function App() {
   const handleDelete = () => {
 
   }
+  const handleAdd = () => {
+    setTodos([...todos, {todo, isCompleted: false}])
+    setTodo("")
+  }
