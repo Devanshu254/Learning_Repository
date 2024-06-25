@@ -30,4 +30,11 @@ function App() {
         <div className='text-lg font-bold'>
           <h2>Your Todos</h2>
         </div>
+        <div className="todos">
+            <div className="text">My Todo
+            </div>
+            <div className="buttons">
+              <button onClick = {handleEdit} className="bg-violet-800 hover:bg-violet-950 p-2 py-1 text-sm font-bold text-white rounded-md mx-1">Edit</button>
+              <button onClick = {handleEdit} className="bg-violet-800 hover:bg-violet-950 p-2 py-1 text-sm font-bold text-white rounded-md mx-1">Delete</button>
+            </div>
 
