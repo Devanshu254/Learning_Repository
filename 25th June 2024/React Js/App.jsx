@@ -37,4 +37,9 @@ function App() {
               <button onClick = {handleEdit} className="bg-violet-800 hover:bg-violet-950 p-2 py-1 text-sm font-bold text-white rounded-md mx-1">Edit</button>
               <button onClick = {handleEdit} className="bg-violet-800 hover:bg-violet-950 p-2 py-1 text-sm font-bold text-white rounded-md mx-1">Delete</button>
             </div>
+          </div>
+      </div>
+    </>
+  )
+}
 
