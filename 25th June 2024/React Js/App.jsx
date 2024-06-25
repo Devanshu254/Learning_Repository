@@ -15,3 +15,7 @@ function App() {
     setTodos([...todos, {todo, isCompleted: false}])
     setTodo("")
   }
+  const handleChange = (e) => {
+    setTodo(e.target.value);
+  }
+
