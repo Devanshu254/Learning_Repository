@@ -19,4 +19,6 @@ function App() {
     setTodo(e.target.value);
   }
   return (
+    <>
+    <Navbar/>
 
