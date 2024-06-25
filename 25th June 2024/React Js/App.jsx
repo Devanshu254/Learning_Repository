@@ -8,3 +8,6 @@ function App() {
   const handleEdit = () => {
 
   }
+  const handleDelete = () => {
+
+  }
